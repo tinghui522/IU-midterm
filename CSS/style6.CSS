@@ -1,0 +1,263 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+html{
+    margin: 0px;
+    margin: 0 auto;
+  }
+
+  body{
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .lovepoem{
+    justify-content: left;
+    width:13%;
+    position: absolute;
+    top:-2vh;
+    left:3vw;
+  }
+
+  .boxbox{
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-end;
+  list-style-type: none;
+  padding-right:10vw;
+}
+
+.boxword{
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: rgb(29, 29, 29);
+  font-size: 28px;
+  padding-top:3vh;
+  padding-left:6vw;
+}
+.boxword:hover{
+  color: rgb(255, 215, 82);
+}
+
+.boxword2{
+  cursor:default;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: rgb(243, 243, 243);
+  font-size: 28px;
+  padding-top:3vh;
+  padding-left:6vw;
+}
+
+.bconcert{
+  position: absolute;
+  top:3.3vh;
+  right:9vw;
+  width:135px;
+  height:36px;
+  z-index:1;
+}
+
+  #content a{
+    color: rgb(29, 29, 29);
+  }
+  
+  #content a:hover{
+    color:#711FFF;
+  }
+
+  .littleiu{
+    width:60px;
+    height:75px;
+    position: absolute;
+    top:4vh;
+    right:2.5vw;
+    z-index:3;
+  }
+
+  .iconbox{
+    margin-left:5vw;
+    padding-bottom:50px;
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    top:-150vh;
+    z-index: 2;
+  }
+
+  .fb{
+    width:30px;
+    height:30px;
+    padding:8px 0px 25px 0px;
+  }
+  
+  .ig{
+    width:30px;
+    height:30px;
+    padding:8px 0px 25px 0px;
+  }
+  
+  .tt{
+    width:30px;
+    height:30px;
+    padding:8px 0px 25px 0px;
+  }
+  
+  .yt{
+    width:30px;
+    height:30px;
+    padding:8px 0px 25px 0px;
+  }
+  .fb:hover{
+    transform : scale(1.2);
+  }
+  
+  .ig:hover{
+    transform : scale(1.2);
+  }
+  
+  .tt:hover{
+    transform : scale(1.2);
+  }
+  
+  .yt:hover{
+    transform : scale(1.2);
+  }
+  
+  .aicon{
+    width:40px;
+    height:40px;
+    margin-bottom:4vh;
+  }
+
+  .tourconcert{
+    cursor: default;
+    display: flex;
+    position: absolute;
+    top:20vh;
+    right:21vw;
+    z-index:1;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+  }
+
+  .LOVEPOEM{
+    cursor: default;
+    display: flex;
+    position: absolute;
+    top:22vh;
+    right:17.6vw;
+    z-index:1;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: rgb(29, 29, 29);
+    font-size: 90px;
+  }
+
+  .mask{
+    position: relative;
+    z-index:0;
+    width:100%;
+    height:1920px;
+    overflow: hidden;
+  }
+
+.concert{
+  width:107%;
+  position: relative;
+}
+.concert div {
+  position: absolute;
+  z-index:0;
+  top:23vh;
+  left:27vw;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-animation: round 20s linear infinite;
+          animation: round 20s linear infinite;
+}
+
+@-webkit-keyframes round {
+  5% {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      /* 0 - 1秒 淡入*/
+  }
+  25% {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      /* 1- 5秒靜止*/
+  }
+  30% {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      /* 5-6秒淡出*/
+  }
+}
+@keyframes round {
+  5% {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      /* 0 - 1秒 淡入*/
+  }
+  25% {
+      opacity: 1;
+      filter: alpha(opacity=100);
+      /* 1- 5秒靜止*/
+  }
+  30% {
+      opacity: 0;
+      filter: alpha(opacity=0);
+      /* 5-6秒淡出*/
+  }
+}
+
+.concert div:nth-child(4) {
+  -webkit-animation-delay: 15s;
+          animation-delay: 15s;
+}
+
+.concert div:nth-child(3) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.concert div:nth-child(2) {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+
+.concert div:nth-child(1) {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+.concertword{
+  position: absolute;
+  z-index:0;
+  top:125vh;
+  right:25vw;
+  width:1000px;
+  height:750px;
+}
+.threeflower{
+  position: absolute;
+  z-index:0;
+  top:150vh;
+  left:6vw;
+  width:110px;
+  height:300px;
+}
+.loveflower{
+  position: absolute;
+  z-index:0;
+  top:182.5vh;
+  right:0;
+  width:531px;
+  height:638px;
+}
