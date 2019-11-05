@@ -1,0 +1,300 @@
+*{
+  margin: 0px;
+  padding:0px;
+}
+
+html{
+    margin: 0px;
+    margin: 0 auto;
+    padding:0px;
+  }
+  body{
+    margin: 0px;
+    margin: 0 auto;
+    padding:0px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .box{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    list-style-type: none;
+    padding-right:10vw;
+  }
+  
+  .boxword{
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: rgb(29, 29, 29);
+    font-size: 28px;
+    padding-top:5vh;
+    padding-left:6vw;
+  }
+  .boxword:hover{
+    color: rgb(255, 215, 82);
+  }
+  
+  .boxword2{
+    cursor:default;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: rgb(243, 243, 243);
+    font-size: 28px;
+    padding-top:5vh;
+
+  }
+
+  .opera{
+    position: relative;
+    top:0.2vh;
+    left:5vw;
+    width:112px;
+    height:35px;
+    z-index:1;
+  }
+
+  #content a{
+    color: rgb(29, 29, 29);
+  }
+  
+  #content a:hover{
+    color:rgb(255, 215, 82);
+  }
+
+  .littleiu{
+    width:68px;
+    height:85px;
+    position: absolute;
+    top:3vh;
+    right:3vw;
+    z-index:0;
+  }
+  .moon{
+    position: absolute;
+    top:0;
+    left:0;
+    width:600px;
+    height:800px;
+    z-index:0;
+  }
+  .hotel{
+    cursor:default;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #711FFF;
+    font-size: 60px;
+    position: absolute;
+    top:50vh;
+    left:12vw;
+    z-index:1;
+  }
+
+  .story{
+    cursor:default;
+    font-family: Segoe UI;
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+    position: absolute;
+    top:62vh;
+    left:12.1vw;
+    z-index:1;
+  }
+
+  .mooniulu{
+    position: absolute;
+    top:25vh;
+    right:0;
+    z-index:0;
+    width:1200px;
+    height:654px;
+    z-index:1;
+  }
+
+  
+
+  .fire{
+    position: absolute;
+    top:17vh;
+    right:0;
+    z-index:1;
+    width:120px;
+    height:90px;
+  }
+
+  .fire1{
+    position: absolute;
+    top:86vh;
+    left:5vw;
+    z-index:1;
+    width:100px;
+    height:82px;
+  }
+  .circle4{
+    position: absolute;
+    top:95vh;
+    left:0;
+    z-index:1;
+    width:270px;
+    height:870px;
+  }
+  .iconbox{
+    justify-content: left;
+    position: absolute;
+    top:140vh;
+    left:5vw;
+    padding-bottom:50px;
+    display: flex;
+    flex-direction:column;
+    margin-top:6vh;
+    z-index:1;
+  }
+  
+  .fb{
+    width:30px;
+    height:30px;
+    padding:8px 0px 25px 0px;
+  }
+  
+  .ig{
+    width:30px;
+    height:30px;
+    padding:8px 0px 25px 0px;
+  }
+  
+  .tt{
+    width:30px;
+    height:30px;
+    padding:8px 0px 25px 0px;
+  }
+  
+  .yt{
+    width:30px;
+    height:30px;
+    padding:8px 0px 25px 0px;
+  }
+  .fb:hover{
+    transform : scale(1.2);
+  }
+  
+  .ig:hover{
+    transform : scale(1.2);
+  }
+  
+  .tt:hover{
+    transform : scale(1.2);
+  }
+  
+  .yt:hover{
+    transform : scale(1.2);
+  }
+  
+  .aicon{
+    width:30px;
+    height:30px;
+    margin-bottom:4vh;
+  }
+
+  .hotelvideo{
+    position: absolute;
+    top:125vh;
+    left:27vw;
+    z-index:1;
+  }
+  .fire2{
+    position: absolute;
+    top:127vh;
+    right:5vw;
+    z-index:0;
+    width:100px;
+    height:82px;
+  }
+
+  .fire3{
+    position: absolute;
+    top:188vh;
+    left:23vw;
+    z-index:0;
+    width:100px;
+    height:82px;
+  }
+
+  .fire4{
+    position: absolute;
+    top:200vh;
+    right:1vw;
+    z-index:0;
+    width:100px;
+    height:82px;
+  }
+  .goodbye{
+    cursor: default;
+    position: absolute;
+    top:145vh;
+    right:3vw;
+    writing-mode: vertical-rl;/* FF */
+    font-family: Segoe UI;
+    font-weight: 750;
+    color: rgb(29, 29, 29);
+    font-size: 20px;
+  }
+
+
+.my{
+  cursor: default;
+  position: absolute;
+  top:157vh;
+  right:3vw;
+  writing-mode: vertical-rl;/* FF */
+  font-family: Segoe UI;
+  font-weight: 750;
+  color: rgb(29, 29, 29);
+  font-size: 20px;
+}
+.moon1{
+  cursor: default;
+  position: absolute;
+  top:162vh;
+  right:3vw;
+  writing-mode: vertical-rl;/* FF */
+  font-family: Segoe UI;
+  font-weight: 750;
+  color: rgb(29, 29, 29);
+  font-size: 20px;
+}
+
+@keyframes rowup {
+  0% {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+  }
+  100% {
+      -webkit-transform: translate3d(-1945px, 0, 0);
+      transform: translate3d(-1945px, 0, 0);
+  }
+}
+.list{
+  width: 100%;
+  white-space: nowrap;
+  box-sizing: border-box;
+  position: relative;
+  top:210vh;
+  overflow: hidden;
+}
+
+.list .rowup{
+  -webkit-animation: 20s rowup linear infinite normal;
+  animation: 20s rowup linear infinite normal;
+  position: relative;
+}
+
+.rowup:hover{
+  animation-play-state:paused;
+}
+
+.group3:hover{
+  transform : scale(1.2);
+}
